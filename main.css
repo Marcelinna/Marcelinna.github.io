@@ -103,9 +103,9 @@ h4 {
   font-weight: 700;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .project_box_describe_paragraf {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   h4 {
