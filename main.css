@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
   font-size: 16px;
@@ -107,9 +103,9 @@ h4 {
   font-weight: 700;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
   .project_box_describe_paragraf {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   h4 {
