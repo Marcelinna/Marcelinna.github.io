@@ -23,7 +23,7 @@ h3 {
 .project_box {
   border-radius: 1em;
   margin-bottom: 3em;
-  height: 50vh;
+  height: 60vh;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
   background-color: white;
   position: relative;
@@ -47,7 +47,7 @@ h3 {
 .project_box_describe {
   border-radius: 1em;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-  height: 50vh;
+  height: 60vh;
   position: relative;
   left: 0px;
   background-color: white;
