@@ -21,7 +21,7 @@ h3 {
 .project_box {
   border-radius: 1em;
   margin-bottom: 3em;
-  
+
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
   background-color: white;
   position: relative;
@@ -97,31 +97,27 @@ h4 {
 
 .project_box_describe_paragraf {
   text-align: justify;
-  margin: 1em 2em;
+  margin: 2em 2em;
   font-weight: 700;
 }
 
 @media (max-width: 500px) {
   .project_box_describe_paragraf {
     font-size: 0.9em;
+    margin: 2em 0.1em;
   }
 
   h4 {
     font-size: 0.5em;
   }
-  .project_box_describe_paragraf {
-    margin: 1em 0.1em;
-  }
 
   .project_box_describe {
-    
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .project_box {
     height: 270px;
   }
-
 }
 
 @media (min-width: 992px) {
@@ -133,7 +129,6 @@ h4 {
   .project_box {
     position: relative;
     left: 20px;
-    
   }
 
   .project_box_describe {
