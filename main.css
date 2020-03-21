@@ -1,4 +1,3 @@
-
 body {
   font-size: 16px;
 }
@@ -22,7 +21,7 @@ h3 {
 .project_box {
   border-radius: 1em;
   margin-bottom: 3em;
-  height: 50vh;
+
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
   background-color: white;
   position: relative;
@@ -46,7 +45,6 @@ h3 {
 .project_box_describe {
   border-radius: 1em;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-  height: 50vh;
   position: relative;
   left: 0px;
   background-color: white;
@@ -111,10 +109,8 @@ h4 {
     font-size: 0.5em;
   }
   .project_box_describe_paragraf {
-    text-align: justify;
     margin: 0.5em 0.1em;
-    font-weight: 700;
-}
+  }
 }
 
 @media (min-width: 992px) {
