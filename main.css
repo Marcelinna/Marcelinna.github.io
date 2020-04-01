@@ -8,9 +8,14 @@ header {
   font-family: "Girassol", cursive;
 }
 
+.container{
+  max-width: 1200px !important;
+
+}
+
 h1 {
   padding-top: 2.5em;
-  font-size: 2em;
+  font-size: 2.3em;
   padding-bottom: 1em;
 }
 h3 {
@@ -58,7 +63,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top: 25vh;
 }
 
@@ -93,14 +98,7 @@ h4 {
   font-weight: 700;
 }
 
-@media (min-width: 960px) {
-  h1 {
-    font-size: 2.3em;
-  }
-  h4 {
-    font-size: 1.3em;
-  }
-}
+
 
 @media (max-width: 1205px) {
   .project_box {
@@ -112,10 +110,42 @@ h4 {
   }
 }
 
+@media (max-width: 991px) {
+  .project_box {
+    margin-left: 60px;
+    margin-right: 60px;
+    
+  }
+  .project_box_describe {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+} 
+
+@media (max-width: 700px) {
+  .project_box {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  .project_box_describe {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .project_box {
+    height: 270px;
+  }
+} 
+  
+
+
 @media (max-width: 500px) {
   .project_box_describe_paragraf {
     font-size: 0.9em;
     margin: 2em 0.1em;
+  }
+  h1 {
+    font-size: 2em;
   }
 
   h4 {
