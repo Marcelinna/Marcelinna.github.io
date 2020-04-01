@@ -73,6 +73,7 @@ h4 {
   flex-basis: 60px;
   height: 70px;
   padding: 4px;
+  margin-left: 3px;
 }
 .project_box_logo_item.less {
   margin-top: 10px;
