@@ -12,7 +12,7 @@
     />
 
     <link
-      href="https://fonts.googleapis.com/css?family=Girassol&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Quicksand:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
 
@@ -21,270 +21,287 @@
   <body>
     <header>
       <h1 class="text-center text-uppercase">Marcelina Siwecka</h1>
-      <h2 class="text-center">Portfolio</h2>
+      <h2 class="text-center">Front-end Developer</h2>
+      <div class="logo"><h2 clas="text-center">M</h2></div>
     </header>
 
     <main>
       <article>
-        <div class="container">
+        <div class="container-fluid presentation">
           <div class="row">
             <div class="col-sm-12 project">
-              <h3 class="text-center">PROJECTS</h3>
+              <div class="presentation-img"><img src="img/web.jpg" /></div>
+              <div class="presentation-text">
+                <h2 class="text-center presentation-header">
+                  Hey, I’m Marcelina.
+                </h2>
+                I have been learning HTML, CSS, JavaScript for 5 months. I also
+                try to learn about available libraries and tools that allow
+                easier project management. I mainly use courses and materials
+                available online. I develop my skills by expanding my portfolio
+                with small projects. I look forward to finding a job in a place
+                where they can develop, and the knowledge of experienced people
+                will help me become a good programmer in the future.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <article>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12 project">
+                <div class="skills">
+                  <h3>My SKILLS</h3>
+                  <div class="project_box_logo">
+                    <div class="project_box_logo_item">
+                      <img src="img/html.png" />
+                    </div>
+                    <div class="project_box_logo_item">
+                      <img src="img/css.png" />
+                    </div>
+                    <div class="project_box_logo_item">
+                      <img src="img/js.png" />
+                    </div>
+
+                    <div class="project_box_logo_item">
+                      <img src="img/bootrstrap.png" />
+                    </div>
+                    <div class="project_box_logo_item">
+                      <img src="img/react.png" />
+                    </div>
+                    <div class="project_box_logo_item less">
+                      <img src="img/less.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </article>
+
+      <article>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 project">
+              <h3 class="text-center">My PROJECTS</h3>
             </div>
           </div>
           <div class="project_content">
             <div class="row">
-              <div class="col-lg-6 project_box">
-                <a href="https://marcelinna.github.io/Table/"
-                  ><img class="project_img" src="img/table.png"
-                /></a>
-              </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/js.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  The project allows to create tasks, mark importance and
-                  urgency. Thanks to the drag & drop event, elements can be
-                  moved to the next panel. All data is saved in localStorage.
-                </div>
-              </div>
-            </div>
+              <div class="col-lg-5 project_box">
+                <a href="https://marcelinna.github.io/Table/">
+                  <img class="project_img" src="img/table.png" />
 
-            <div class="row">
-              <div class="col-lg-6 project_box">
+                  <div class="project_box_content">
+                    <div class="project_box_describe_paragraf">
+                      The project allows to create tasks, mark importance and
+                      urgency. Thanks to the drag & drop event, elements can be
+                      moved to the next panel. All data is saved in
+                      localStorage.
+                      <div class="project_box_logo">
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/html.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/css.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/js.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-5 project_box">
                 <a href="https://marcelinna.github.io/Bike_shop/"
-                  ><img class="project_img" src="img/bike.png"
-                /></a>
-              </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/js.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                  <div class="project_box_logo_item less">
-                    <img src="img/less.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  An application that allows to add items to the cart and remove
-                  them. The added articles and the sum is displayed in a
-                  separate panel. The displayed articles are downloaded from the
-                  JSON file.
-                </div>
+                  ><img class="project_img" src="img/bike.png" />
+                  <div class="project_box_content">
+                    <div class="project_box_describe_paragraf">
+                      An application allows to add items to the cart and remove
+                      them. The added articles and the sum is displayed in a
+                      separate panel. The displayed articles are downloaded from
+                      the JSON file.
+                      <div class="project_box_logo">
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/html.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/css.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/js.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe less">
+                          <img src="img/less.png" />
+                        </div>
+                      </div>
+                    </div></div
+                ></a>
               </div>
             </div>
-
             <div class="row">
-              <div class="col-lg-6 project_box">
+              <div class="col-lg-5 project_box">
                 <a href="https://marcelinna.github.io/Popup/"
-                  ><img class="project_img" src="img/popup.png"
-                /></a>
+                  ><img class="project_img" src="img/popup.png" />
+                  <div class="project_box_content">
+                    <div class="project_box_describe_paragraf">
+                      Popup window displaying the list of partners using the
+                      fetch method. After accepting the conditions, the cookie
+                      is saved for 24 hours.
+                      <div class="project_box_logo">
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/html.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/css.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/js.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/typescript.png" />
+                        </div>
+                      </div>
+                    </div></div
+                ></a>
               </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/js.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/typescript.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  Popup window displaying the list of partners using the fetch
-                  method. After accepting the conditions, the cookie is saved
-                  for 24 hours.
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-6 project_box">
+              <div class="col-lg-5 project_box">
                 <a href="https://marcelinna.github.io/quiz/"
-                  ><img class="project_img" src="img/quiz.png"
-                /></a>
-              </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/js.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  An application in which, after providing the correct answer to
-                  the question, one piece of the picture is revealed.
-                </div>
+                  ><img class="project_img" src="img/quiz.png" />
+                  <div class="project_box_content">
+                    <div class="project_box_describe_paragraf">
+                      An application in which, after providing the correct
+                      answer to the question, one piece of the picture is
+                      revealed.
+                      <div class="project_box_logo">
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/html.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/css.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/js.png" />
+                        </div>
+                      </div>
+                    </div></div
+                ></a>
               </div>
             </div>
-
             <div class="row">
-              <div class="col-lg-6 project_box">
+              <div class="col-lg-5 project_box">
                 <a href="https://marcelinna.github.io/Moto_Page/"
-                  ><img class="project_img" src="img/motopage.png"
-                /></a>
+                  ><img class="project_img" src="img/motopage.png" />
+                  <div class="project_box_content">
+                    <div class="project_box_describe_paragraf">
+                      An example website based on CSS Grid Layout, so that
+                      location of elements on the page will change easily
+                      depending on the size of the screen.
+                      <div class="project_box_logo">
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/html.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/css.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/js.png" />
+                        </div>
+                      </div>
+                    </div></div
+                ></a>
               </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/js.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  An example website based on CSS Grid Layout, so that location
-                  of elements on the page will change easily depending on the
-                  size of the screen.
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6 project_box">
+              <div class="col-lg-5 project_box">
                 <a href="https://marcelinna.github.io/form_validation/"
-                  ><img class="project_img" src="img/validationForm.png"
-                /></a>
-              </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/js.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  Project presenting validations of the form, if a form field is
-                  empty or incorrect, function alerts a message.
-                </div>
+                  ><img class="project_img" src="img/validationForm.png" />
+                  <div class="project_box_content">
+                    <div class="project_box_describe_paragraf">
+                      Project presenting validations of the form, if a form
+                      field is empty or incorrect, function alerts a message.
+                      <div class="project_box_logo">
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/html.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/css.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/js.png" />
+                        </div>
+                      </div>
+                    </div></div
+                ></a>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-lg-6 project_box">
+              <div class="col-lg-5 project_box">
                 <a href="https://marcelinna.github.io/first_project/"
-                  ><img class="project_img" src="img/first_p.png"
-                /></a>
+                  ><img class="project_img" src="img/first_p.png" />
+                  <div class="project_box_content">
+                    <div class="project_box_describe_paragraf">
+                      An example page using the capabilities of the bootstrap
+                      library, its various components and utilities.
+                      <div class="project_box_logo">
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/html.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/css.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/js.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/bootrstrap.png" />
+                        </div>
+                      </div>
+                    </div></div
+                ></a>
               </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/bootrstrap.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  An example page using the capabilities of the bootstrap
-                  library, its various components and utilities.
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-6 project_box">
+              <div class="col-lg-5 project_box">
                 <a href="https://marcelinna.github.io/first_steps_REACT/"
-                  ><img class="project_img" src="img/react_pj.png"
-                /></a>
-              </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/js.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/react.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  The project has been created with the React library. I used a
-                  Context to avoid props drilling. The application was created
-                  with the newest version of React where the state is services
-                  by Hooks.
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-6 project_box">
-                <a href="https://marcelinna.github.io/App_Doughnut/"
-                  ><img class="project_img" src="img/doughnut.png"
-                /></a>
-              </div>
-              <div class="col-lg-5 project_box_describe">
-                <div class="project_box_logo">
-                  <div class="project_box_logo_item">
-                    <img src="img/css.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/js.png" />
-                  </div>
-                  <div class="project_box_logo_item">
-                    <img src="img/html.png" />
-                  </div>
-                </div>
-                <div class="project_box_describe_paragraf">
-                  The project shows buttons from one to six. Every button
-                  reveals an image of the hidden doughnut and shows the
-                  description on the right side.
-                </div>
+                  ><img class="project_img" src="img/react_pj.png" />
+                  <div class="project_box_content">
+                    <div class="project_box_describe_paragraf">
+                      The project has been created with the React library. I
+                      used a Context to avoid props drilling. The application
+                      was created with the newest version of React where the
+                      state is services by Hooks.
+                      <div class="project_box_logo">
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/react.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/html.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/css.png" />
+                        </div>
+                        <div class="project_box_logo_item_describe">
+                          <img src="img/js.png" />
+                        </div>
+                      </div>
+                    </div></div
+                ></a>
               </div>
             </div>
           </div>
         </div>
       </article>
-
-      <footer>
-        <div class="row mr-0">
-          <div class="col-sm-12 footer text-center">
-            <h4>Kontakt: marcelinasiwecka@gmail.com</h4>
-          </div>
-        </div>
-      </footer>
     </main>
+
+    <footer>
+      <div class="row mr-0">
+        <div class="col-sm-12 footer text-center">
+          <h4>Contact: <br />marcelinasiwecka@gmail.com</h4>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
