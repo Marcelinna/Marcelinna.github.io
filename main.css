@@ -292,7 +292,7 @@ h4 {
     margin: 0.5em 0.5em;
 
     font-size: 16px;
-    padding: 20px 5px 5px 10px;
+    padding: 60px;
   }
   .presentation-text {
     width: 80%;
@@ -343,7 +343,7 @@ h4 {
     margin: 0.1em 0.1em;
 
     font-size: 15px;
-    padding: 3px;
+    padding: 30px;
   }
   .project_box {
     min-height: 250px;
@@ -384,9 +384,17 @@ h4 {
     width: 90%;
     
   }
+  .project_box_describe_paragraf {
+    
+    padding: 15px;
+  }
 }
-@media (max-width: 300px) {
+@media (max-width: 330px) {
   h4 {
     font-size: 11px;
+  }
+  .project_box_describe_paragraf {
+    
+    padding: 9px;
   }
 }
