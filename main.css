@@ -27,7 +27,6 @@ header {
 
 .logo h2 {
   font-size: 50px;
- 
 }
 
 header h1 {
@@ -56,7 +55,7 @@ header h1 {
 
 .container-fluid.presentation {
   background-color: #f2f5f5;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
 }
 
 .presentation-header {
@@ -78,7 +77,7 @@ header h1 {
   letter-spacing: 0.2em;
 }
 
-.project h4{
+.project h4 {
   margin-bottom: 4em;
   font-size: 20px;
 }
@@ -87,13 +86,9 @@ header h1 {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   letter-spacing: 0.2em;
-  border: 1px solid white;
   width: 65%;
-  margin: -110px auto 0;
-  border-radius: 10px;
-  background-color: white;
+  margin: -129px auto 0;
   padding-bottom: 120px;
-  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 2;
 }
@@ -357,13 +352,13 @@ header h1 {
   }
 
   .skills {
-    width: 90%;
+    width: 95%;
   }
   .project_box_logo_item {
     margin-top: 10px;
     flex-basis: 40px;
     height: 50px;
-    padding: 4px;
+    padding: 2px;
     margin-left: 10px;
   }
 
@@ -395,6 +390,7 @@ header h1 {
   .project_box_logo_item {
     flex-basis: 30px;
     height: 40px;
+    padding: 1px;
   }
   .project_box_logo_item.less {
     flex-basis: 40px;
