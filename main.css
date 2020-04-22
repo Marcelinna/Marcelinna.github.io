@@ -246,6 +246,24 @@ header h2 {
 }
 .footer_link_repositories i {
   margin-left: 10px;
+  font-size: 20px;
+  text-decoration: blink;
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .footer_link_repositories a:hover {
   color: #a3e6f5;
