@@ -435,7 +435,7 @@ header h2 {
     width: 90vw;
   }
 
-  h4 {
+  .footer h4 {
     font-size: 13px;
   }
   h2 {
@@ -456,7 +456,7 @@ header h2 {
   }
 }
 @media (max-width: 330px) {
-  h4 {
+  .footer h4 {
     font-size: 11px;
   }
   .project_box_describe_paragraf {
