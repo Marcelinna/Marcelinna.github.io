@@ -134,6 +134,7 @@ header h2 {
   opacity: 0;
   transition: 0.5s ease;
   height: 100%;
+  width: 100%;
 }
 
 .project_box_content:hover {
@@ -386,7 +387,9 @@ header h2 {
 
   .skills {
     width: 95%;
+    margin: -116px auto 0;
   }
+
   .project_box_logo_item {
     margin-top: 10px;
     flex-basis: 40px;
